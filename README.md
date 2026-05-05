@@ -1,2 +1,2 @@
 # Quick-TRF-File-Naming-with-Database-Rename-Formula
-The file contains excel formulas to help operators create names faster.
+TRF (Travel Record Form) file renaming was a repetitive task that required operators to manually copy-paste each variable, taking around 10–13 seconds per file. To solve this, I leveraged the existing Main Database by adding a VLOOKUP formula to standardize unit names, then built a concatenation formula that auto-generates the complete file name in the correct format. The operator now only needs to search by Job Order number and copy one ready-made result. This reduced processing time to 4–5 seconds per file, approximately 60% faster with no additional software required.
